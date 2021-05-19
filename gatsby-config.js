@@ -3,7 +3,13 @@ module.exports = {
     title: "Nicole Azurduy",
   },
   plugins: [
-    "gatsby-plugin-sass",
+    {
+      resolve: 'gatsby-plugin-sass',
+      options: {
+        implementation: require('sass'),
+        additionalData: `@use "./variables" as var`
+      }
+    },
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
