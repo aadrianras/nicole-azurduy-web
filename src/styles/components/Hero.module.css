@@ -27,3 +27,32 @@
     font-weight: 600;
     color: var(--third)
 }
+
+@media only screen and (max-width: 510px) {
+    .logo{
+        font-size: 4rem;
+    }
+    .career {
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .logo{
+        font-size: 3rem;
+    }
+
+    .career {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 275px) {
+    .logo{
+        font-size: 2rem;
+    }
+
+    .career {
+        font-size: 1rem;
+    }
+}

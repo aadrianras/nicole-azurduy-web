@@ -19,6 +19,7 @@ export const Services = () => {
             <div className={rightContent}>
                 {servicesData.map(({ service, description }) => (
                     <ServiceResume
+                        key={service}
                         service={service}
                         description={description}
                     />
