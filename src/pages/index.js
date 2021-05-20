@@ -1,11 +1,12 @@
 import React from 'react'
+import { IndexContainer } from '../components/IndexContainer';
+
 import { MainLayout } from '../components/MainLayout'
 
 const IndexPage = () => {
   return (
     <MainLayout pageTitle="Inicio">
-      <h1>Hola Index</h1>
-      <p>Parrafo</p>
+      <IndexContainer />
     </MainLayout>
   )
 }

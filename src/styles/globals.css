@@ -1,0 +1,80 @@
+
+/* VARIABLES */
+:root {
+    --logoText: Dancing Script;
+    --text: Open Sans;
+    --header: Bebas Neue;
+
+    --background: #1d2323;
+    --main: #00d1cd;
+    --second: #f30067;
+    --third: #eaeaea;
+}
+
+/* GLOBAL STYLES */
+
+html {
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: var(--background);
+}
+
+main {
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--header);
+    font-size: 2rem;
+}
+
+p, a, button, input {
+    font-family: var(--text);
+    font-size: 1rem;
+    color: var(--third)
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+p:last-child {
+    margin-bottom: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+img,
+video,
+audio {
+  max-width: 100%;
+  height: auto;
+}
+
+
+

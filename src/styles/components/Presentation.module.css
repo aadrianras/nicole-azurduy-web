@@ -1,0 +1,36 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 50px;
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.nicolePortrait {
+    max-width: 400px;
+    border: 15px solid var(--main);
+}
+
+.presentationBox{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.presentationText {
+    font-family: var(--header);
+    border: 15px solid var(--main);
+    padding: 50px;
+}
+
+.presentationText h3 {
+    color: var(--main);
+}
+
+.presentationImage{
+    max-width: 350px;
+    border: 15px solid var(--main);
+    margin-top: 100px;
+}

@@ -1,0 +1,38 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+    height: 80px;
+}
+
+.logo {
+    font-family: var(--logoText);
+    font-size: 2rem;
+    color: var(--third);
+    padding: 5px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.navContainer {
+    display: flex;
+    align-items: center;
+}
+
+.navItem {
+    margin: 5px 15px;
+    transition: all .3s ease;
+}
+
+.navItem:hover a{
+    color: var(--main);
+}
+
+.navItem:active {
+    transform: scale(.9);
+}

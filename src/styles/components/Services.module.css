@@ -1,0 +1,38 @@
+.container{
+    width: 100%;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 30% 70%;
+} 
+.leftContent {
+    min-height: 600px;
+    background-color: var(--main);
+    padding: 50px;
+}
+.rightContent {
+    padding: 50px;
+    background-image: url('../../images/bodyParts2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 50px;    
+}
+
+.serviceResumeBox {
+    background-color: rgba(234, 234, 234, .8);
+    color: var(--background);
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 50px;
+}
+
+.serviceResumeBox p {
+    color: var(--background);
+}
