@@ -28,6 +28,17 @@
     color: var(--third)
 }
 
+.backButton{
+    background-color: var(--second);
+    padding: 8px 15px;
+    border-radius: 10px;
+    border: none;
+    transition: all .3s ease;
+}
+.backButton:active{
+    transform: scale(.9);
+}
+
 @media only screen and (max-width: 510px) {
     .logo{
         font-size: 4rem;

@@ -6,12 +6,12 @@ import { logo, navBar, navContainer, navItem } from '../styles/components/MainLa
 import "@fontsource/bebas-neue"; // Defaults to weight 400.
 import "@fontsource/open-sans"; // Defaults to weight 400 with all styles included.
 import '@fontsource/dancing-script'; //400 500 600 700
+import { Footer } from './Footer';
 
 
 export const MainLayout = ({ pageTitle, children }) => {
     return (
-        <main>
-            <title>{pageTitle}</title>
+        <>
             <nav className={navBar}>
                 <Link to='/' className={logo}>Nicole Azurduy</Link>
                 <ul className={navContainer}>
@@ -19,7 +19,11 @@ export const MainLayout = ({ pageTitle, children }) => {
                     <li className={navItem}><Link to="/about" >Sobre mi</Link></li>
                 </ul>
             </nav>
-            {children}
-        </main>
+            <main>
+                <title>{pageTitle}</title>
+                {children}
+            </main>
+            <Footer />
+        </>
     )
 }

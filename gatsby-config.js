@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Nicole Azurduy",
+    description: 'Desde el gastby-config'
   },
   plugins: [
     "gatsby-plugin-gatsby-cloud",

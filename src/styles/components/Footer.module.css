@@ -1,0 +1,18 @@
+.container{
+    background-color: var(--main);
+    width: 100vw;
+    padding: 10px 15px;
+}
+
+.madeIn{
+    color: var(--background); 
+}
+
+.holos{
+    margin-left: 10px;
+}
+.holos:hover {
+    color: #542C85;
+    text-decoration: underline;
+}
+

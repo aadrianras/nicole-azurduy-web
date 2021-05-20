@@ -1,0 +1,51 @@
+.container {
+    min-height: calc(100vh - 145px);
+    margin: 0 auto;
+    background-image: url('../../images/bodyParts.jpg');
+    background-position: bottom left;
+    background-size: cover;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    background-color: rgba(0, 209, 205, .8);
+    height: 100%;
+    padding: 50px 100px;
+}
+
+.title, .text {
+    color: var(--background);
+}
+
+.right{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+} 
+
+.nicolePortrait{
+    border: 15px solid var(--main);
+}
+
+@media only screen and (max-width: 1000px) {
+    .container{
+        grid-template-columns: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .left, .right {
+        padding: 50px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .left, .right {
+        padding: 25px;
+    }
+}

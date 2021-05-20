@@ -5,12 +5,18 @@
     display: grid;
     grid-template-columns: 30% 70%;
 } 
+
 .leftContent {
     background-color: var(--main);
-    padding: 50px;
+    padding: 40px;
 }
+
+.title, .text {
+    color: var(--background);
+}
+
 .rightContent {
-    padding: 50px;
+    padding: 40px;
     background-image: url('../../images/bodyParts2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -19,7 +25,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 50px;    
+    gap: 40px;    
 }
 
 .serviceResumeBox {
@@ -29,12 +35,9 @@
     flex-flow: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 50px;
+    padding: 40px;
 }
 
-.serviceResumeBox p {
-    color: var(--background);
-}
 
 
 @media only screen and (max-width: 950px) {
@@ -53,9 +56,15 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .rightContent {
+    .leftContent{
         padding: 50px 25px;
+    }
+    .rightContent {
+        padding: 50px 15px;
         grid-template-columns: 100%;
         grid-template-rows: auto;   
+    }
+    .serviceResumeBox{
+        padding: 25px 15px;
     }
 }
