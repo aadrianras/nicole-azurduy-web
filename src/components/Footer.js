@@ -9,6 +9,7 @@ export const Footer = () => {
                 <a
                     href='https://holos73.media'
                     target='_blank'
+                    rel="noreferrer"
                     className={holos}                >
                     Holos 73 ©
                 </a>
