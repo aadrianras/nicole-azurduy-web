@@ -1,18 +1,18 @@
 export const servicesData = [
     {
-        service: 'Electroterapia',
-        description: 'Consectetur cupidatat reprehenderit aliqua reprehenderit irure deserunt aute veniam qui. Consequat exercitation pariatur exercitation reprehenderit cupidatat pariatur nulla eu ea. Pariatur in pariatur non id magna.'
-    },
-    {
-        service: 'Acupuntura',
-        description: 'Laboris consequat eu nulla amet anim nulla. Irure et culpa occaecat mollit dolore aliqua reprehenderit voluptate ut exercitation labore adipisicing irure. Deserunt velit dolore consequat ut. Ullamco velit amet consectetur nulla deserunt proident. Proident eu proident aliquip irure excepteur excepteur culpa ad.'
-    },
-    {
         service: 'Masoterapia',
-        description: 'Adipisicing eiusmod culpa mollit nisi quis quis eiusmod labore do eu commodo ipsum est. Nostrud exercitation laborum pariatur non irure incididunt. Voluptate mollit ut minim voluptate velit eu duis dolore laborum officia consectetur duis.'
+        description: 'Mediante técnicas de masajes terapéuticos trato todo tipo de lesiones o enfermedades. Además, estimulo el riego sanguíneo y la liberación de puntos de tensión en músculos y nervios afectados.'
     },
     {
-        service: 'Tensoterapia',
-        description: 'Lorem aliquip velit pariatur veniam non exercitation nostrud nulla laboris irure. Pariatur do officia ex nostrud fugiat laborum anim. Occaecat sunt veniam et cupidatat et velit consequat in sit et adipisicing velit aute. Duis cillum proident occaecat id exercitation id tempor aliquip elit.'
+        service: 'Electroterapia',
+        description: 'Utilizo esta técnica para la rehabilitación terapéutica, es decir, mediante la aplicación profesional de corriente eléctrica estimulo el fortalecimiento de la masa muscular, articular u otros. Asimismo, la utilizo como un medio de recuperación en todo tipo de afecciones.'
+    },
+    {
+        service: 'Cinesiterapia',
+        description: 'Mediante técnicas y procedimientos basados en el movimiento cinético, cinemático y dinámico trato distintas patologías o alteraciones músculo-esqueléticas, mayormente encontradas  en el adulto mayor.'
+    },
+    {
+        service: 'Terapia manual',
+        description: 'Utilizo un conjunto de técnicas para evaluar y tratar cualquier alteración corporal, artícular, nerviosa o muscular con el fin de recuperar la función y el movimiento normal de las estructuras afectadas, al mismo tiempo que se alivia el dolor y se facilita la recuperación del segmento afectado.'
     },
 ];

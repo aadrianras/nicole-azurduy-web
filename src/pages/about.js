@@ -11,10 +11,10 @@ const AboutPage = () => {
                 <div className={left}>
                     <h2 className={title}>Sobre mi...</h2>
                     <p className={text}>
-                        Consectetur eu excepteur veniam aliquip. Culpa non voluptate laboris non consectetur consectetur tempor ea amet sunt cillum aliqua dolore consequat. Quis ullamco minim qui qui. Laboris in deserunt dolore exercitation consectetur et et ullamco laboris aliqua commodo nostrud ullamco elit.
+                    Tengo 24 años, soy madre, esposa y mujer plena. Soy Fisioterapeuta y además me encuentro cursando la carrera de Medicina, ya que me apasiona todo lo relacionado al cuerpo humano y la salud. Me considero una persona muy empatica con su entorno social y me gusta mucho ayudar a las personas que mas lo necesitan, sobre todo brindarles atención oportuna y de calidad sea cual sea su afección. 
                     </p>
                     <p className={text}>
-                        Irure occaecat minim cillum non. Minim deserunt ea aliquip dolore quis aliquip labore cupidatat commodo et esse exercitation consectetur. Magna officia id voluptate aliquip pariatur occaecat nostrud ut minim veniam dolor. Et do aliquip ullamco eiusmod dolore nostrud tempor in pariatur quis. Minim dolore velit dolor nisi ea ut adipisicing minim fugiat ex nulla voluptate. Elit sit duis aute aute Lorem commodo excepteur. Ullamco excepteur proident consequat sunt dolore do laboris ipsum ad irure laboris amet ut commodo.
+                         
                     </p>
                 </div>
                 <div className={right}>

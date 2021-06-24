@@ -14,8 +14,8 @@ export const Presentation = () => {
             />
             <div className={presentationBox}>
                 <div className={presentationText}>
-                    <h3>Mi pasión...</h3>
-                    <p>Cillum labore quis incididunt consequat ad nulla do Lorem eu enim. Esse tempor esse irure quis sunt non do nostrud officia anim ea duis culpa. Magna nisi laborum do excepteur quis consectetur consequat dolor. Velit incididunt veniam cupidatat eiusmod non non qui ad qui tempor. Lorem laboris aliquip aute minim eu ipsum anim quis.</p>
+                    <h3>Mi pasión es ayudar...</h3>
+                    <p>Para mi, cada paciente y su familia son diferentes y tienen necesidades unicas. Mi meta es diseñar un plan de tratamiento individual basado en diferentes técnicas profesionales que permitan obtener los resultados optimos en cada paciente.</p>
                 </div>
                 <StaticImage
                     src='../images/bodyParts.jpg'

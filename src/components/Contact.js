@@ -13,6 +13,7 @@ export const Contact = () => {
             <a
                 href='https://wa.me/+59178916557'
                 className={whatsappButton}
+                rel="noreferrer"
                 target='_blank'
             >
                 <FontAwesomeIcon

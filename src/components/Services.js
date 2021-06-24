@@ -10,10 +10,11 @@ export const Services = () => {
         <div className={container}>
             <div className={leftContent}>
                 <h2 className={title}>Servicios</h2>
-                <p className={text}>Deserunt nisi nisi enim id. Proident pariatur do quis sit. Do in cillum consectetur qui aliqua laborum. Duis aliquip amet sit nulla non ut ad.
+                <p className={text}>
+                    La Fisioterapia es una disciplina del área de salud que tiene como objetivo diagnosticar, prevenir, tratar y/o rehabilitar diferentes tipos de dolencias, tanto agudas como crónicas, por medio de técnicas especializadas. 
                 </p>
                 <p className={text}>
-                    Lorem aliquip velit pariatur veniam non exercitation nostrud nulla laboris irure. Pariatur do officia ex nostrud fugiat laborum anim. Occaecat sunt veniam et cupidatat et velit consequat in sit et adipisicing velit aute. Duis cillum proident occaecat id exercitation id tempor aliquip elit.
+                    En este sentido, utilizo las diversas técnicas existentes como ser, ejercicios  terapéuticos y/o agentes físicos como la crioterapia, termoterapia, electricidad, tracciones o masoterapia, para la rehabilitación del paciente logrando la reincorporación a sus actividades cotidianas.  
                 </p>
             </div>
             <div className={rightContent}>
