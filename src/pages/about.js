@@ -11,10 +11,10 @@ const AboutPage = () => {
                 <div className={left}>
                     <h2 className={title}>Sobre mi...</h2>
                     <p className={text}>
-                    Tengo 24 años, soy madre, esposa y mujer plena. Soy Fisioterapeuta y además me encuentro cursando la carrera de Medicina, ya que me apasiona todo lo relacionado al cuerpo humano y la salud. Me considero una persona muy empatica con su entorno social y me gusta mucho ayudar a las personas que mas lo necesitan, sobre todo brindarles atención oportuna y de calidad sea cual sea su afección. 
+                    Tengo 24 años, nací en Coroico - La Paz, soy madre, esposa y mujer plena. Soy Fisioterapeuta y además, actualmente me encuentro cursando la carrera de Medicina.  Mi meta profesional es convertirme una reconocida Cirujana y Fisioterapeuta cardiorespiratoria.  
                     </p>
                     <p className={text}>
-                         
+                    Me apasiona todo lo relacionado al cuerpo humano y la salud. Me considero una persona muy empatica con su entorno social y me gusta mucho ayudar a las personas que mas lo necesitan, sobre todo brindarles atención oportuna y de calidad sea cual sea su afección.
                     </p>
                 </div>
                 <div className={right}>

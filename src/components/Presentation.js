@@ -14,8 +14,8 @@ export const Presentation = () => {
             />
             <div className={presentationBox}>
                 <div className={presentationText}>
-                    <h3>Mi pasión es ayudar...</h3>
-                    <p>Para mi, cada paciente y su familia son diferentes y tienen necesidades unicas. Mi meta es diseñar un plan de tratamiento individual basado en diferentes técnicas profesionales que permitan obtener los resultados optimos en cada paciente.</p>
+                    <h3>¿Mi pasión? ¡Es ayudar!</h3>
+                    <p>Para mi cada paciente y su familia son especiales y tienen necesidades unicas. Por lo tanto, los planes de tratamiento son diseñados de manera personalizada, basado en diferentes técnicas profesionales que permiten obtener resultados en el menor plazo posible mientras se genera bienestar y calidad de vida.</p>
                 </div>
                 <StaticImage
                     src='../images/bodyParts.jpg'
